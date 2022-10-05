@@ -1,0 +1,8 @@
+# Application Context Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.andy.log.initializer.LogApplicationContextInitializer
+
+# log Configuration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.andy.log.config.LogConfiguration,\
+com.andy.log.utils.LogTools
