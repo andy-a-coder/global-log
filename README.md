@@ -1,0 +1,2 @@
+# global-log
+global-log
